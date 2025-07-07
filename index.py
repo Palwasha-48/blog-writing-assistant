@@ -228,6 +228,26 @@ def generate_blog(topic):
 
 
 st.title("Blog Writing Assistant 📝")
+
+
+# 🌼 Adsterra Ad Code
+ad_code = """
+<script type="text/javascript">
+	atOptions = {
+		'key' : '85ea97859486ac4bab70587ca961849c',
+		'format' : 'iframe',
+		'height' : 250,
+		'width' : 300,
+		'params' : {}
+	};
+</script>
+<script type="text/javascript" src="//www.highperformanceformat.com/85ea97859486ac4bab70587ca961849c/invoke.js"></script>
+"""
+
+# 🍑 Add Adsterra Ad at the Top
+st.markdown(ad_code, unsafe_allow_html=True)
+
+
 st.markdown(
     """
     <style>
